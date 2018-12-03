@@ -29,7 +29,7 @@
   #GDWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
-    top:30%;
+    top:50%;
     width:100%;
     text-align:center;
     color:#fff;
@@ -37,9 +37,6 @@
     transition:.3s;
   }
 
-#GDWithBlurredBg h2{
-    top:50%
-  }  
   #GDWithBlurredBg:hover :not(img){
     opacity:1;
   }
@@ -69,16 +66,12 @@
   #VideosWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
-    top:30%;
+    top:50%;
     width:100%;
     text-align:center;
     color:#fff;
     opacity:0;
     transition:.3s;
-  }
-  
-  #VideosWithBlurredBg h2{
-    top:50%
   }
   
   #VideosWithBlurredBg:hover :not(img){
@@ -109,16 +102,12 @@
   #DrawingsWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
-    top:30%;
+    top:50%;
     width:100%;
     text-align:center;
     color:#fff;
     opacity:0;
     transition:.3s;
-  }
-  
-  #DrawingsWithBlurredBg h2{
-    top:50%
   }
   
   #DrawingsWithBlurredBg:hover :not(img){
@@ -149,16 +138,12 @@
   #PaintingsWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
-    top:30%;
+    top:50%;
     width:100%;
     text-align:center;
     color:#fff;
     opacity:0;
     transition:.3s;
-  }
-  
-  #PaintingsWithBlurredBg h2{
-    top:50%
   }
   
   #PaintingsWithBlurredBg:hover :not(img){
