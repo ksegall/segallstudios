@@ -35,19 +35,19 @@
     margin:4px;
   }
   
-  .textWithBlurredBg img{
+  .TextWithBlurredBg img{
     width:100%;
     height:100%;
     transition:.3s;
     border-radius:4px;
   }
   
-  .textWithBlurredBg:hover img{
+  .TextWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
    
-  .textWithBlurredBg :not(img){
+  .TextWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
     top:30%;
@@ -58,6 +58,6 @@
     transition:.3s;
   }
   
-  .textWithBlurredBg:hover :not(img){
+  .TextWithBlurredBg:hover :not(img){
     opacity:1;
   }
