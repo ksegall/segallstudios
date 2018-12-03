@@ -1,32 +1,9 @@
 #nav ul {
   list-style-type: none;
-  margin:0 auto;
-  width: 19.5em;
 }
 
-#nav ul li {
-  float: left;
-}
 
-#nav ul li a {
-  display: block;
-  padding: .5em
-  border: 1px solid;
-  border-radius: .5em;
-  margin: .25em;
-}
-
-#nav {
-  overflow: hidden;
-  width: 100%;
-}
-
-#nav ul a:focus {
-  color: #fc6;
-  border-color: #fff;
-}
-
-<!--hover picture code-->
+<!--hover picture code START-->
 
 #GDWithBlurredBg{
     width:300px;
