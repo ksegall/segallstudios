@@ -58,10 +58,6 @@
     transition:.3s;
   }
   
-  .textWithBlurredBg h3{
-    top:50%
-  }
-  
   .textWithBlurredBg:hover :not(img){
     opacity:1;
   }
