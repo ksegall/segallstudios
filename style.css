@@ -97,21 +97,7 @@ iframe {
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
-   
-  #VideosWithBlurredBg :not(img){
-    position:absolute;
-    z-index:1;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#fff;
-    opacity:0;
-    transition:.3s;
-  }
-  
-  #VideosWithBlurredBg:hover :not(img){
-    opacity:1;
-  }
+ 
 
 #DrawingsWithBlurredBg{
     width:300px;
@@ -134,20 +120,7 @@ iframe {
     box-shadow:0 0 16px cyan;
   }
    
-  #DrawingsWithBlurredBg :not(img){
-    position:absolute;
-    z-index:1;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#fff;
-    opacity:0;
-    transition:.3s;
-  }
-  
-  #DrawingsWithBlurredBg:hover :not(img){
-    opacity:1;
-  }
+
 
 <!--hover picture code END-->
 
