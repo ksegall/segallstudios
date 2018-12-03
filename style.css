@@ -28,7 +28,7 @@
 
 <!--hover picture code-->
 
-.GDWithBlurredBg{
+#GDWithBlurredBg{
     width:300px;
     height:auto;
     display:inline-block;
@@ -37,19 +37,19 @@
     margin:4px;
   }
   
-  .GDWithBlurredBg img{
+  #GDWithBlurredBg img{
     width:100%;
     height:100%;
     transition:.3s;
     border-radius:4px;
   }
   
-  .GDWithBlurredBg:hover img{
+  #GDWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
    
-  .GDWithBlurredBg :not(img){
+  #GDWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
     top:30%;
@@ -60,15 +60,15 @@
     transition:.3s;
   }
 
-.GDWithBlurredBg h2{
+#GDWithBlurredBg h2{
     top:50%
   }  
-  .GDWithBlurredBg:hover :not(img){
+  #GDWithBlurredBg:hover :not(img){
     opacity:1;
   }
 
 
-.VideosWithBlurredBg{
+#VideosWithBlurredBg{
     width:300px;
     height:auto;
     display:inline-block;
@@ -77,19 +77,19 @@
     margin:4px;
   }
   
-  .VideosWithBlurredBg img{
+  #VideosWithBlurredBg img{
     width:100%;
     height:100%;
     transition:.3s;
     border-radius:4px;
   }
   
-  .VideosWithBlurredBg:hover img{
+  #VideosWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
    
-  .VideosWithBlurredBg :not(img){
+  #VideosWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
     top:30%;
@@ -100,15 +100,15 @@
     transition:.3s;
   }
   
-  .VideosWithBlurredBg h2{
+  #VideosWithBlurredBg h2{
     top:50%
   }
   
-  .VideosWithBlurredBg:hover :not(img){
+  #VideosWithBlurredBg:hover :not(img){
     opacity:1;
   }
 
-.DrawingsWithBlurredBg{
+#DrawingsWithBlurredBg{
     width:300px;
     height:auto;
     display:inline-block;
@@ -117,19 +117,19 @@
     margin:4px;
   }
   
-  .DrawingsWithBlurredBg img{
+  #DrawingsWithBlurredBg img{
     width:100%;
     height:100%;
     transition:.3s;
     border-radius:4px;
   }
   
-  .DrawingsWithBlurredBg:hover img{
+  #DrawingsWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
    
-  .DrawingsWithBlurredBg :not(img){
+  #DrawingsWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
     top:30%;
@@ -140,15 +140,15 @@
     transition:.3s;
   }
   
-  .DrawingsWithBlurredBg h2{
+  #DrawingsWithBlurredBg h2{
     top:50%
   }
   
-  .DrawingsWithBlurredBg:hover :not(img){
+  #DrawingsWithBlurredBg:hover :not(img){
     opacity:1;
   }
 
-.PaintingsWithBlurredBg{
+#PaintingsWithBlurredBg{
     width:300px;
     height:auto;
     display:inline-block;
@@ -157,19 +157,19 @@
     margin:4px;
   }
   
-  .PaintingsWithBlurredBg img{
+  #PaintingsWithBlurredBg img{
     width:100%;
     height:100%;
     transition:.3s;
     border-radius:4px;
   }
   
-  .PaintingsWithBlurredBg:hover img{
+  #PaintingsWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
    
-  .PaintingsWithBlurredBg :not(img){
+  #PaintingsWithBlurredBg :not(img){
     position:absolute;
     z-index:1;
     top:30%;
@@ -180,11 +180,11 @@
     transition:.3s;
   }
   
-  .PaintingsWithBlurredBg h2{
+  #PaintingsWithBlurredBg h2{
     top:50%
   }
   
-  .PaintingsWithBlurredBg:hover :not(img){
+  #PaintingsWithBlurredBg:hover :not(img){
     opacity:1;
   }
 
