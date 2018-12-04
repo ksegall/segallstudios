@@ -25,30 +25,6 @@ table {
     border: none;
 }
 
-.gd-img {
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    cursor: pointer;
-    background-color: white;
-    outline: 1px dotted blue;
-}
-.gd-img .img-wrap {
-    margin: 10px;
-}
-
-.gd-img img {
-    display: block;
-}
-
-.gd-img:hover .img-wrap {
-    background-color: black;
-}
-
-.gd-img:hover img {
-    opacity: 0.6;
-}
 
 iframe {
    display: block;
