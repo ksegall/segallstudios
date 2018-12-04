@@ -53,3 +53,8 @@ table {
 .gd-img:hover img {
     opacity: 0.6;
 }
+
+iframe {
+   display: block;
+   margin: 0 auto;
+}
