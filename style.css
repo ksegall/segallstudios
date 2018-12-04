@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-image: url ("blackmarble.jpg");
+}
+
 .nav {
     background-color: white; 
     list-style-type: none;
