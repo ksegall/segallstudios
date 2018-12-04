@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-image: url("marble.jpg");
+}
+
 header { 
     display: block;
 }
